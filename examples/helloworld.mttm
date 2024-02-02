@@ -1,0 +1,33 @@
+    T1> ADD 72  // H
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 101  // e
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 108  // l
+    T1> OUT.ASCII
+    T1> OUT.ASCII // l
+    T1> GO
+    T1> ADD 111  // o
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 32  // 
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 87  // W
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 111  // o
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 114  // r
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 108  // l
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 100  // d
+    T1> OUT.ASCII
+    T1> GO
+    T1> ADD 33  // !
+    T1> OUT.ASCII

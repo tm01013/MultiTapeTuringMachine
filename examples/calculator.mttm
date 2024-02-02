@@ -1,0 +1,64 @@
+    T1> IN
+    T2> IN
+    T3> IN
+
+    T2> IF.IS 43 add    
+    T2> IF.IS 45 sub    
+    T2> IF.IS 42 mul    
+    T2> IF.IS 47 div    
+    T2> IF.IS 37 mod    
+
+    SS.START // Addition
+    add:
+        T4> ADD $T1
+        T4> GO
+        T4> ADD $T3
+        T4> BACK
+        T4> ADD.GO
+        T4> OUT
+        HALT
+    SS.END
+
+    SS.START // Substraction
+    sub:
+        T4> ADD $T1
+        T4> GO
+        T4> ADD $T3
+        T4> BACK
+        T4> SUB.GO
+        T4> OUT
+        HALT
+    SS.END
+
+    SS.START // Multiplication
+    mul:
+        T4> ADD $T1
+        T4> GO
+        T4> ADD $T3
+        T4> BACK
+        T4> MUL.GO
+        T4> OUT
+        HALT
+    SS.END
+
+    SS.START // Division
+    div:
+        T4> ADD $T1
+        T4> GO
+        T4> ADD $T3
+        T4> BACK
+        T4> DIV.GO
+        T4> OUT
+        HALT
+    SS.END
+
+    SS.START // Modulo
+    mod:
+        T4> ADD $T1
+        T4> GO
+        T4> ADD $T3
+        T4> BACK
+        T4> MOD.GO
+        T4> OUT
+        HALT
+    SS.END

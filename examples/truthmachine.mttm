@@ -1,0 +1,12 @@
+    T2> ADD 1
+    
+    T1> IN
+    T1> IF.IS 1 infiniteLoop
+    T1> OUT
+    HALT
+
+    SS.START
+    infiniteLoop:
+    T2> OUT
+    GOTO infiniteLoop 
+    SS.END

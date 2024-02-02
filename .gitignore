@@ -1,0 +1,7 @@
+out
+bin
+obj
+.vscode
+out.tmt
+test.mttm
+.DS_Store
