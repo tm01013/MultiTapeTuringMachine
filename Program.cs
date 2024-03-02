@@ -8,11 +8,11 @@ namespace MTTM
         public static void Main(string[] args)
         {
             string program = "";
-            string filePath = "/Users/TM/vscode/MultiTapeTuringMachine/MultiTapeTuringMachine/examples/calculator.mttm";
+            string filePath = "";
 
-            /*if (args.Length < 1) new Error("The program expects a '.mttm' code file as an argument!");
+            if (args.Length < 1) new Error("The program expects a '.mttm' code file as an argument!");
             else if (args.Length > 1) new Error("The program only expects a '.mttm' code file as an argument!");
-            else filePath = args[0];*/
+            else filePath = args[0];
 
             if (!filePath.EndsWith(".mttm")) new Error("A Multi Tape Turing Machine script must have the '.mttm' file extension!");
 
